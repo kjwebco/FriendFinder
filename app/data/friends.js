@@ -1,171 +1,41 @@
-// ===============================================================================
-// DATA
-// Below data will hold all of the reserved tables.
-// Initially we just set it equal to a "dummy" customer.
-// But you could have it be an empty array as well.
-// ===============================================================================
+
 var friends = [
-  {
-      "name":"Owen",
-      "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-      "scores":[
-         5,
-         1,
-         4,
-         4,
-         5,
-         1,
-         2,
-         5,
-         4,
-         1
-          ]
-      },
-  {
-  "name":"Pavan",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
-     5,
-     1,
-     4,
-     4,
-     5,
-     1,
-     2,
-     5,
-     4,
-     1
-      ]
-},
-{
-  "name":"Angel",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
-     9,
-     1,
-     4,
-     4,
-     5,
-     1,
-     2,
-     5,
-     4,
-     1
-      ]
-},
-{
-  "name":"Karina",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
-     5,
-     1,
-     4,
-     3,
-     2,
-     6,
-     9,
-     8,
-     9,
-     9
-      ]
-},
-{
-  "name":"Miriam",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
-     5,
-     1,
-     4,
-     3,
-     2,
-     6,
-     9,
-     8,
-     9,
-     9
-      ]
-},
-{
-  "name":"Lisa",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
-     5,
-     1,
-     4,
-     3,
-     2,
-     6,
-     9,
-     8,
-     9,
-     9
-      ]
-},
-{
-  "name":"Nicole",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
-     5,
-     1,
-     4,
-     3,
-     2,
-     6,
-     9,
-     8,
-     9,
-     9
-      ]
-},
-{
-  "name":"Jason",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
-     5,
-     1,
-     4,
-     3,
-     2,
-     6,
-     9,
-     8,
-     9,
-     9
-      ]
-},
-{
-  "name":"Nate",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
-     5,
-     1,
-     4,
-     3,
-     2,
-     6,
-     9,
-     8,
-     9,
-     9
-      ]
-},
-{
-  "name":"Ken",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
-     5,
-     1,
-     4,
-     3,
-     2,
-     6,
-     9,
-     8,
-     9,
-     9
-      ]
-}
+   {
+      "name":"Erisdar The Mysterious One",
+      "photo":"https://forum.unity3d.com/proxy.php?image=http%3A%2F%2Fwww.infinitypbr.com%2Fdragon%2Fhd6.jpg&hash=572c8a1450b0670344e0da08cae18d18",
+      "scores":[5,1,4,4,5,1,2,5,4,1]
+   },
+   {
+      "name":"Mistical Taytay",
+      "photo":"http://rizalprovince.ph/tourism_pictures/Avilon%20MZP%20-%20Montalban%20(2).jpg",
+      "scores":[4,2,5,1,3,2,2,1,3,2]
+   },
+   {
+      "name":"Skylar Rose",
+      "photo":"http://i2.wp.com/northstarz.ca/wp-content/uploads/2013/12/Rose.jpg",
+      "scores":[5,2,2,2,4,1,3,2,5,5]
+   },
+   {
+      "name":"Colonel Paul",
+      "photo":"http://www.153aw.ang.af.mil/shared/media/bio/Colonel%20Paul%20Lyman.jpg",
+      "scores":[3,3,4,2,2,1,3,2,2,3]
+   },
+	{
+	   "name":"Edward Snowden",
+	   "photo":"https://upload.wikimedia.org/wikipedia/commons/6/60/Edward_Snowden-2.jpg",
+	   "scores":[4,3,4,1,5,2,5,3,1,4]
+	},
+      {
+      "name":"Hesso Nader",
+      "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Aatef_Jenyat.jpg/293px-Aatef_Jenyat.jpg",
+      "scores":[3,3,4,1,4,3,5,3,5,4]
+   },
+	{
+	   "name":"Sonneth The Swift",
+	   "photo":"http://www.billboard.com/files/styles/article_main_image/public/stylus/1235529-taylor-swift-woman-of-the-year-617-409.jpg",
+	   "scores":[4,4,2,3,2,2,3,2,4,5]
+	}
+
 ]
 
-// Note how we export the array. This makes it accessible to other files using require.
 module.exports = friends;
