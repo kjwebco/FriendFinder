@@ -1,23 +1,23 @@
 
 var friends = [
    {
-      "name":"Erisdar The Mysterious One",
-      "photo":"https://forum.unity3d.com/proxy.php?image=http%3A%2F%2Fwww.infinitypbr.com%2Fdragon%2Fhd6.jpg&hash=572c8a1450b0670344e0da08cae18d18",
+      "name":"Kevin The Mysterious One",
+      "photo":"http://orig04.deviantart.net/671c/f/2009/267/2/1/avatar_guy_01_by_heglys.png",
       "scores":[5,1,4,4,5,1,2,5,4,1]
    },
    {
-      "name":"Mistical Taytay",
-      "photo":"http://rizalprovince.ph/tourism_pictures/Avilon%20MZP%20-%20Montalban%20(2).jpg",
+      "name":"Zoe Saldana",
+      "photo":"https://www.ohay.tv/file/v1/upload/content/2016-05/30/6428-ceed43345650cbdc03c58d9ed9da68d0.jpg",
       "scores":[4,2,5,1,3,2,2,1,3,2]
    },
    {
-      "name":"Skylar Rose",
-      "photo":"http://i2.wp.com/northstarz.ca/wp-content/uploads/2013/12/Rose.jpg",
+      "name":"Sam Worthington",
+      "photo":"http://www.rsmhawaii.com/wp-content/uploads/2016/02/techguy-avatar.png",
       "scores":[5,2,2,2,4,1,3,2,5,5]
    },
    {
-      "name":"Colonel Paul",
-      "photo":"http://www.153aw.ang.af.mil/shared/media/bio/Colonel%20Paul%20Lyman.jpg",
+      "name":"Wes Studi",
+      "photo":"http://vignette2.wikia.nocookie.net/jamescameronsavatar/images/e/eb/Eytukan_Infobox.jpg/revision/latest?cb=20100904030110",
       "scores":[3,3,4,2,2,1,3,2,2,3]
    },
 	{
@@ -31,8 +31,8 @@ var friends = [
       "scores":[3,3,4,1,4,3,5,3,5,4]
    },
 	{
-	   "name":"Sonneth The Swift",
-	   "photo":"http://www.billboard.com/files/styles/article_main_image/public/stylus/1235529-taylor-swift-woman-of-the-year-617-409.jpg",
+	   "name":"Joel David Moore",
+	   "photo":"https://vignette1.wikia.nocookie.net/jamescameronsavatar/images/2/25/Norm_Avatar_Infobox.png/revision/latest/scale-to-width-down/250?cb=20100812234739",
 	   "scores":[4,4,2,3,2,2,3,2,4,5]
 	}
 
